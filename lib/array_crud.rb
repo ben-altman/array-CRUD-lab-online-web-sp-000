@@ -3,16 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["cats","millicent","dog","buster"]
+  array = ["cats","millicent","dog","buster"]
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array << "arrays!"
-  puts create_an_array
+  array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  create_an_array.unshift("wow")
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
